@@ -1,0 +1,6 @@
+artifacts
+BitText/scripts/
+wandb
+BitText/training/checkpoints
+
+**.pyc

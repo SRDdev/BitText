@@ -1,0 +1,737 @@
+#---------------------------------------------------------------------#
+Run : 2025-07-26 12:22:19
+#---------------------------------------------------------------------#
+INFO | Dataset            | Initializing tokenizer: bert-base-uncased                                                                         dataset.py:129
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 12:24:27
+#---------------------------------------------------------------------#
+INFO | Dataset            | Initializing tokenizer: bert-base-uncased                                                                         dataset.py:129
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 12:26:26
+#---------------------------------------------------------------------#
+INFO | Dataset            | Initializing tokenizer: bert-base-uncased                                                                         dataset.py:129
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:30
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:31
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:32
+INFO | Dataset            | Processing data with 29567 samples                                                                                 dataset.py:48
+INFO | Dataset            | Average tokenized length: 512.00                                                                                   dataset.py:65
+INFO | Dataset            | Processing data with 60 samples                                                                                    dataset.py:48
+INFO | Dataset            | Average tokenized length: 512.00                                                                                   dataset.py:65
+INFO | Dataset            | Number of batches in training loader: 1848                                                                        dataset.py:144
+INFO | Dataset            | Number of batches in validation loader: 4                                                                         dataset.py:145
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 12:31:57
+#---------------------------------------------------------------------#
+INFO | Tokenizer          | Loading tokenizer: bert-base-uncased                                                                             tokenizer.py:20
+INFO | Tokenizer          | Tokenized Output: {'input_ids': tensor([[  101,  2023,  2003,  1037,  7099,  3793,  2005, 19204,  3989,  1012,   tokenizer.py:67
+     |                    |            102,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+     |                    |              0,     0]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    | 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
+     |                    | 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+     |                    |          0, 0, 0, 0, 0, 0, 0, 0]])}
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:01:01
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:01:01
+#---------------------------------------------------------------------#
+INFO | Prepare Data       | Loading dataset: iohadrubin/wikitext-103-raw-v1                                                               prepare_data.py:72
+INFO | Prepare Data       | Text Preprocessor initialized                                                                                 prepare_data.py:18
+INFO | Prepare Data       | Preprocessing dataset with 29567 samples                                                                      prepare_data.py:48
+INFO | Prepare Data       | Dataset preprocessing complete: 29567 samples                                                                 prepare_data.py:56
+INFO | Prepare Data       | Preprocessing dataset with 60 samples                                                                         prepare_data.py:48
+INFO | Prepare Data       | Dataset preprocessing complete: 60 samples                                                                    prepare_data.py:56
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:01:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Training started on device: cuda                                                                                    train.py:259
+INFO | Trainer            | Model parameters: 4144520                                                                                           train.py:260
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:01:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/10                                                                                                 train.py:136
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:01:55
+#---------------------------------------------------------------------#
+ERR  | Trainer            | Training failed with error: 'input_ids'                                                                             train.py:267
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:12:30
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded successfully: bert-base-uncased                                                                    train.py:212
+INFO | Trainer            | Using vocabulary size: 30522                                                                                        train.py:213
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:12:30
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:12:37
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                           dataset.py:53
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:13:34
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded successfully: bert-base-uncased                                                                    train.py:212
+INFO | Trainer            | Using vocabulary size: 30522                                                                                        train.py:213
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:13:34
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:13:42
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                           dataset.py:53
+INFO | Dataset            | Processed 29567 valid samples from train split                                                                     dataset.py:98
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing validation data with 60 samples                                                                         dataset.py:53
+INFO | Dataset            | Processed 60 valid samples from validation split                                                                   dataset.py:98
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:22:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Training started on device: cuda                                                                                    train.py:315
+INFO | Trainer            | Model parameters: 17237306                                                                                          train.py:316
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:22:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/5                                                                                                  train.py:160
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:22:22
+#---------------------------------------------------------------------#
+ERR  | Trainer            | Training failed with error: Expected all tensors to be on the same device, but found at least two devices, cuda:0   train.py:323
+     |                    | and cpu!
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:24:41
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded successfully: bert-base-uncased                                                                    train.py:212
+INFO | Trainer            | Using vocabulary size: 30522                                                                                        train.py:213
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:24:41
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:24:58
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                           dataset.py:53
+INFO | Dataset            | Processed 29567 valid samples from train split                                                                     dataset.py:98
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing validation data with 60 samples                                                                         dataset.py:53
+INFO | Dataset            | Processed 60 valid samples from validation split                                                                   dataset.py:98
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:32:51
+#---------------------------------------------------------------------#
+INFO | Trainer            | Training started on device: cuda                                                                                                                    train.py:315
+INFO | Trainer            | Model parameters: 17240122                                                                                                                          train.py:316
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:32:51
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/5                                                                                                                                  train.py:160
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:37:36
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Training Loss: 2.9777                                                                                                            train.py:98
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:37:37
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Validation Loss: 0.8558                                                                                                         train.py:137
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:37:37
+#---------------------------------------------------------------------#
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/best_model.pth                                                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.8558                                                                                                   train.py:185
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/checkpoint_epoch_1.pth                                                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_1.pth                                                                                                            train.py:189
+INFO | Trainer            | Starting Epoch 2/5                                                                                                                                  train.py:160
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:42:07
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded successfully: bert-base-uncased                                                                    train.py:275
+INFO | Trainer            | Using vocabulary size: 30522                                                                                        train.py:276
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:42:07
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:42:15
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                           dataset.py:53
+INFO | Dataset            | Processed 29567 valid samples from train split                                                                     dataset.py:98
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing validation data with 60 samples                                                                         dataset.py:53
+INFO | Dataset            | Processed 60 valid samples from validation split                                                                   dataset.py:98
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:49:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Training started on device: cuda                                                                                    train.py:378
+INFO | Trainer            | Model parameters: 17240122                                                                                          train.py:379
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:49:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/5                                                                                                  train.py:223
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:54:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Training Loss: 2.9595                                                                           train.py:161
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:54:21
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Validation Loss: 0.8576                                                                         train.py:200
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:54:22
+#---------------------------------------------------------------------#
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.8576                                                                   train.py:248
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/checkpoint_epoch_1.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_1.pth                                                                            train.py:252
+INFO | Trainer            | Starting Epoch 2/5                                                                                                  train.py:223
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:56:11
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded successfully: bert-base-uncased                                                                    train.py:220
+INFO | Trainer            | Using vocabulary size: 30522                                                                                        train.py:221
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:56:12
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                               transformer.py:71
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 13:56:19
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                           dataset.py:53
+INFO | Dataset            | Processed 29567 valid samples from train split                                                                     dataset.py:98
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                   dataset.py:38
+INFO | Dataset            | Processing validation data with 60 samples                                                                         dataset.py:53
+INFO | Dataset            | Processed 60 valid samples from validation split                                                                   dataset.py:98
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:03:32
+#---------------------------------------------------------------------#
+INFO | Trainer            | Training started on device: cuda                                                                                    train.py:326
+INFO | Trainer            | Model parameters: 17,240,122 total, 17,240,122 trainable                                                            train.py:331
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:03:32
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/5                                                                                                  train.py:158
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:08:37
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Training Loss: 2.9600                                                                            train.py:96
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:08:38
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1/5 - Average Validation Loss: 0.8680                                                                         train.py:135
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:08:38
+#---------------------------------------------------------------------#
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.8680                                                                   train.py:184
+INFO | Trainer            | Best model uploaded to W&B as artifact                                                                              train.py:191
+INFO | Utils              | Model saved at epoch 0 to training/checkpoints/checkpoint_epoch_1.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_1.pth                                                                            train.py:197
+INFO | Trainer            | Starting Epoch 2/5                                                                                                  train.py:158
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:13:47
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 2/5 - Average Training Loss: 0.4832                                                                            train.py:96
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:13:47
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 2/5 - Average Validation Loss: 0.2020                                                                         train.py:135
+INFO | Utils              | Model saved at epoch 1 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.2020                                                                   train.py:184
+INFO | Trainer            | Best model uploaded to W&B as artifact                                                                              train.py:191
+INFO | Utils              | Model saved at epoch 1 to training/checkpoints/checkpoint_epoch_2.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_2.pth                                                                            train.py:197
+INFO | Trainer            | Starting Epoch 3/5                                                                                                  train.py:158
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:18:52
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 3/5 - Average Training Loss: 0.1258                                                                            train.py:96
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:18:52
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 3/5 - Average Validation Loss: 0.0587                                                                         train.py:135
+INFO | Utils              | Model saved at epoch 2 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.0587                                                                   train.py:184
+INFO | Trainer            | Best model uploaded to W&B as artifact                                                                              train.py:191
+INFO | Utils              | Model saved at epoch 2 to training/checkpoints/checkpoint_epoch_3.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_3.pth                                                                            train.py:197
+INFO | Trainer            | Starting Epoch 4/5                                                                                                  train.py:158
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:23:58
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 4/5 - Average Training Loss: 0.0356                                                                            train.py:96
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:23:58
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 4/5 - Average Validation Loss: 0.0166                                                                         train.py:135
+INFO | Utils              | Model saved at epoch 3 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.0166                                                                   train.py:184
+INFO | Trainer            | Best model uploaded to W&B as artifact                                                                              train.py:191
+INFO | Utils              | Model saved at epoch 3 to training/checkpoints/checkpoint_epoch_4.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_4.pth                                                                            train.py:197
+INFO | Trainer            | Starting Epoch 5/5                                                                                                  train.py:158
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:28:35
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 5/5 - Average Training Loss: 0.0092                                                                            train.py:96
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 14:28:35
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 5/5 - Average Validation Loss: 0.0043                                                                         train.py:135
+INFO | Utils              | Model saved at epoch 4 to training/checkpoints/best_model.pth                                                        utils.py:32
+INFO | Trainer            | New best model saved with validation loss: 0.0043                                                                   train.py:184
+INFO | Trainer            | Best model uploaded to W&B as artifact                                                                              train.py:191
+INFO | Utils              | Model saved at epoch 4 to training/checkpoints/checkpoint_epoch_5.pth                                                utils.py:32
+INFO | Trainer            | Checkpoint saved: checkpoint_epoch_5.pth                                                                            train.py:197
+INFO | Trainer            | Training completed successfully!                                                                                    train.py:342
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:27:35
+#---------------------------------------------------------------------#
+INFO | Main               | Starting BitNet training pipeline                                                                                    train.py:612
+INFO | Main               | Initializing model and optimizer                                                                                     train.py:658
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:27:40
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded: bert-base-uncased                                                                                                                 train.py:545
+INFO | Trainer            | Vocabulary size: 30522                                                                                                                              train.py:546
+INFO | Trainer            | Pad token ID: 0                                                                                                                                     train.py:547
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:27:40
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                                                               transformer.py:71
+INFO | Main               | Model parameters: 17,240,122 total, 17,240,122 trainable                                                             train.py:666
+INFO | Main               | Model size: 65.8 MB (FP32)                                                                                           train.py:667
+INFO | Main               | Setting up data loaders                                                                                              train.py:680
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:27:47
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                                                           dataset.py:53
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:30:07
+#---------------------------------------------------------------------#
+INFO | Main               | Starting BitNet training pipeline                                                                                                                   train.py:612
+INFO | Main               | Initializing model and optimizer                                                                                                                    train.py:658
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:30:11
+#---------------------------------------------------------------------#
+INFO | Trainer            | Tokenizer loaded: bert-base-uncased                                                                                                                 train.py:545
+INFO | Trainer            | Vocabulary size: 30522                                                                                                                              train.py:546
+INFO | Trainer            | Pad token ID: 0                                                                                                                                     train.py:547
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:30:11
+#---------------------------------------------------------------------#
+INFO | Transformer        | Model and optimizer initialized.                                                                                                               transformer.py:71
+INFO | Main               | Model parameters: 17,240,122 total, 17,240,122 trainable                                                                                            train.py:666
+INFO | Main               | Model size: 65.8 MB (FP32)                                                                                                                          train.py:667
+INFO | Main               | Setting up data loaders                                                                                                                             train.py:680
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:30:18
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                                                   dataset.py:38
+INFO | Dataset            | Processing train data with 29567 samples                                                                                                           dataset.py:53
+INFO | Dataset            | Processed 29567 valid samples from train split                                                                                                     dataset.py:98
+INFO | Dataset            | Loaded dataset: iohadrubin/wikitext-103-raw-v1                                                                                                     dataset.py:36
+INFO | Dataset            | Number of training samples: 29567                                                                                                                  dataset.py:37
+INFO | Dataset            | Number of validation samples: 60                                                                                                                   dataset.py:38
+INFO | Dataset            | Processing validation data with 60 samples                                                                                                         dataset.py:53
+INFO | Dataset            | Processed 60 valid samples from validation split                                                                                                   dataset.py:98
+INFO | Main               | Training batches: 924                                                                                                                               train.py:683
+INFO | Main               | Validation batches: 2                                                                                                                               train.py:684
+INFO | Main               | Starting training                                                                                                                                   train.py:690
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:34:27
+#---------------------------------------------------------------------#
+INFO | Trainer            | Starting Epoch 1/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:36:41
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1 Training - Loss: 10.2143, Perplexity: 27291.79, Tokens/sec: 110693                                                                          train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:36:41
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 1 Validation - Loss: 9.7673, Perplexity: 17453.41                                                                                             train.py:342
+INFO | Trainer            | New best model! Validation loss: 9.7673                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 2/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:38:56
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 2 Training - Loss: 9.3476, Perplexity: 11471.47, Tokens/sec: 110888                                                                           train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:38:56
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 2 Validation - Loss: 8.8641, Perplexity: 7073.11                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 8.8641                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 3/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:41:11
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 3 Training - Loss: 8.4873, Perplexity: 4852.64, Tokens/sec: 111211                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:41:11
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 3 Validation - Loss: 7.9668, Perplexity: 2883.60                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 7.9668                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 4/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:43:25
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 4 Training - Loss: 7.7165, Perplexity: 2245.10, Tokens/sec: 111128                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:43:25
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 4 Validation - Loss: 7.3529, Perplexity: 1560.69                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 7.3529                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 5/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:45:40
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 5 Training - Loss: 7.2392, Perplexity: 1392.94, Tokens/sec: 111195                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:45:40
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 5 Validation - Loss: 7.0514, Perplexity: 1154.49                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 7.0514                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 6/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:47:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 6 Training - Loss: 7.0298, Perplexity: 1129.76, Tokens/sec: 111007                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:47:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 6 Validation - Loss: 6.9286, Perplexity: 1021.03                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 6.9286                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 7/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:50:10
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 7 Training - Loss: 6.9236, Perplexity: 1015.95, Tokens/sec: 111161                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:50:10
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 7 Validation - Loss: 6.8489, Perplexity: 942.89                                                                                               train.py:342
+INFO | Trainer            | New best model! Validation loss: 6.8489                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 8/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:52:25
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 8 Training - Loss: 6.8521, Perplexity: 945.88, Tokens/sec: 111054                                                                             train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:52:25
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 8 Validation - Loss: 6.7894, Perplexity: 888.41                                                                                               train.py:342
+INFO | Trainer            | New best model! Validation loss: 6.7894                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 9/10                                                                                                                                 train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:54:40
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 9 Training - Loss: 6.7996, Perplexity: 897.49, Tokens/sec: 111115                                                                             train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:54:40
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 9 Validation - Loss: 6.7465, Perplexity: 851.09                                                                                               train.py:342
+INFO | Trainer            | New best model! Validation loss: 6.7465                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Starting Epoch 10/10                                                                                                                                train.py:434
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:56:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 10 Training - Loss: 6.7612, Perplexity: 863.70, Tokens/sec: 111140                                                                            train.py:292
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-26 19:56:55
+#---------------------------------------------------------------------#
+INFO | Trainer            | Epoch 10 Validation - Loss: 6.7122, Perplexity: 822.36                                                                                              train.py:342
+INFO | Trainer            | New best model! Validation loss: 6.7122                                                                                                             train.py:481
+INFO | Trainer            | Checkpoint saved: training/checkpoints/best_model.pth                                                                                               train.py:488
+INFO | Trainer            | Best model uploaded to W&B                                                                                                                          train.py:500
+INFO | Trainer            | Training completed successfully!                                                                                                                    train.py:528
+INFO | Main               | Training completed successfully!                                                                                                                    train.py:699

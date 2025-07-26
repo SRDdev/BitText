@@ -1,0 +1,112 @@
+[
+  {
+    "train_loss": 10.214341147121413,
+    "val_loss": 9.767290592193604,
+    "train_perplexity": 27291.7890625,
+    "val_perplexity": 17453.40625,
+    "learning_rate": 1.1550000000000001e-05,
+    "gradient_norm": 0.36786627317919873,
+    "epoch_time": 133.89035511016846,
+    "tokens_per_second": 110692.588631983,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 9.347618386858986,
+    "val_loss": 8.86405611038208,
+    "train_perplexity": 11471.466796875,
+    "val_perplexity": 7073.11083984375,
+    "learning_rate": 2.3100000000000002e-05,
+    "gradient_norm": 0.37432692706326903,
+    "epoch_time": 133.65438580513,
+    "tokens_per_second": 110888.01845686341,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 8.487278015582593,
+    "val_loss": 7.966793537139893,
+    "train_perplexity": 4852.63916015625,
+    "val_perplexity": 2883.596435546875,
+    "learning_rate": 3.465e-05,
+    "gradient_norm": 0.3638423943158352,
+    "epoch_time": 133.26609659194946,
+    "tokens_per_second": 111211.10604282012,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 7.716504526344728,
+    "val_loss": 7.3528807163238525,
+    "train_perplexity": 2245.098388671875,
+    "val_perplexity": 1560.685546875,
+    "learning_rate": 4.6200000000000005e-05,
+    "gradient_norm": 0.3074123574928804,
+    "epoch_time": 133.36618208885193,
+    "tokens_per_second": 111127.64696320162,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 7.239173338526771,
+    "val_loss": 7.05141282081604,
+    "train_perplexity": 1392.942138671875,
+    "val_perplexity": 1154.4884033203125,
+    "learning_rate": 4.9457666456405434e-05,
+    "gradient_norm": 0.20782714914449882,
+    "epoch_time": 133.28540921211243,
+    "tokens_per_second": 111194.99191703842,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 7.029764397835835,
+    "val_loss": 6.928563117980957,
+    "train_perplexity": 1129.76416015625,
+    "val_perplexity": 1021.0258178710938,
+    "learning_rate": 4.6700942814850215e-05,
+    "gradient_norm": 0.13753123436268275,
+    "epoch_time": 133.51137733459473,
+    "tokens_per_second": 111006.79429632211,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 6.923579753735365,
+    "val_loss": 6.848944902420044,
+    "train_perplexity": 1015.9502563476562,
+    "val_perplexity": 942.8853149414062,
+    "learning_rate": 4.186892317492302e-05,
+    "gradient_norm": 0.10671350595367936,
+    "epoch_time": 133.32649612426758,
+    "tokens_per_second": 111160.72521838664,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 6.85211269834857,
+    "val_loss": 6.78943395614624,
+    "train_perplexity": 945.877197265625,
+    "val_perplexity": 888.4105224609375,
+    "learning_rate": 3.543459928564041e-05,
+    "gradient_norm": 0.09463102902684893,
+    "epoch_time": 133.45480513572693,
+    "tokens_per_second": 111053.85066447778,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 6.799598071998332,
+    "val_loss": 6.746522426605225,
+    "train_perplexity": 897.4866333007812,
+    "val_perplexity": 851.0938720703125,
+    "learning_rate": 2.8027807599855864e-05,
+    "gradient_norm": 0.09109658064135226,
+    "epoch_time": 133.38176608085632,
+    "tokens_per_second": 111114.6630868246,
+    "gpu_memory_used": 1114.50732421875
+  },
+  {
+    "train_loss": 6.76122921266597,
+    "val_loss": 6.712183713912964,
+    "train_perplexity": 863.7030639648438,
+    "val_perplexity": 822.3646850585938,
+    "learning_rate": 2.0373576493926296e-05,
+    "gradient_norm": 0.08987036166769086,
+    "epoch_time": 133.35127806663513,
+    "tokens_per_second": 111140.06715851772,
+    "gpu_memory_used": 1114.50732421875
+  }
+]
