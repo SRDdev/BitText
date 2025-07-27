@@ -2391,3 +2391,75 @@ INFO | Trainer            | Training completed successfully!                    
 Run : 2025-07-27 00:14:28
 #---------------------------------------------------------------------#
 INFO | Main               | Training completed successfully!                                                                                                                    train.py:699
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-27 09:48:16
+#---------------------------------------------------------------------#
+INFO | Inference          | Using device: cuda                                                                                               inference.py:61
+INFO | Inference          | GPU: NVIDIA GeForce RTX 4070 Laptop GPU                                                                          inference.py:64
+INFO | Inference          | GPU Memory: 7.8 GB                                                                                               inference.py:65
+INFO | Inference          | Loading model from: ../training/checkpoints/best_model.pth                                                       inference.py:73
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-27 09:48:29
+#---------------------------------------------------------------------#
+INFO | Inference          | Using device: cuda                                                                                               inference.py:61
+INFO | Inference          | GPU: NVIDIA GeForce RTX 4070 Laptop GPU                                                                          inference.py:64
+INFO | Inference          | GPU Memory: 7.8 GB                                                                                               inference.py:65
+INFO | Inference          | Loading model from: BitText/training/checkpoints/best_model.pth                                                  inference.py:73
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-27 09:51:39
+#---------------------------------------------------------------------#
+INFO | Inference          | Using device: cuda                                                                                                                               inference.py:78
+INFO | Inference          | GPU: NVIDIA GeForce RTX 4070 Laptop GPU                                                                                                          inference.py:81
+INFO | Inference          | GPU Memory: 7.8 GB                                                                                                                               inference.py:82
+INFO | Inference          | Loading model from: BitText/training/checkpoints/best_model.pth                                                                                  inference.py:89
+INFO | Inference          | Loading tokenizer: bert-base-uncased                                                                                                            inference.py:127
+INFO | Inference          | Loaded model from 'model_state_dict'                                                                                                            inference.py:158
+INFO | Inference          | Model moved to device successfully                                                                                                              inference.py:172
+INFO | Inference          | BitNet model loaded successfully on cuda                                                                                                         inference.py:69
+INFO | Inference          | Model parameters: 17,240,122                                                                                                                     inference.py:70
+INFO | Inference          | Generating text with prompt: 'Hey...'                                                                                                           inference.py:208
+INFO | Inference          | Original length: 3, Max new tokens: 50                                                                                                          inference.py:209
+INFO | Inference          | Generating text with prompt: '"The history of artificial intelligence"...'                                                                      inference.py:208
+INFO | Inference          | Original length: 9, Max new tokens: 50                                                                                                          inference.py:209
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-27 09:53:07
+#---------------------------------------------------------------------#
+INFO | Inference          | Using device: cuda                                                                      inference.py:78
+INFO | Inference          | GPU: NVIDIA GeForce RTX 4070 Laptop GPU                                                 inference.py:81
+INFO | Inference          | GPU Memory: 7.8 GB                                                                      inference.py:82
+INFO | Inference          | Loading model from: BitText/training/checkpoints/best_model.pth                         inference.py:89
+INFO | Inference          | Loading tokenizer: bert-base-uncased                                                   inference.py:127
+INFO | Inference          | Loaded model from 'model_state_dict'                                                   inference.py:158
+INFO | Inference          | Model moved to device successfully                                                     inference.py:172
+INFO | Inference          | BitNet model loaded successfully on cuda                                                inference.py:69
+INFO | Inference          | Model parameters: 17,240,122                                                            inference.py:70
+INFO | Inference          | Generating text with prompt: 'which match of football is the most famous one in ...'   inference.py:208
+INFO | Inference          | Original length: 16, Max new tokens: 50                                                inference.py:209
+
+
+#---------------------------------------------------------------------#
+Run : 2025-07-27 09:56:28
+#---------------------------------------------------------------------#
+INFO | Inference          | Using device: cuda                                                                      inference.py:78
+INFO | Inference          | GPU: NVIDIA GeForce RTX 4070 Laptop GPU                                                 inference.py:81
+INFO | Inference          | GPU Memory: 7.8 GB                                                                      inference.py:82
+INFO | Inference          | Loading model from: BitText/training/checkpoints/best_model.pth                         inference.py:89
+INFO | Inference          | Loading tokenizer: bert-base-uncased                                                   inference.py:127
+INFO | Inference          | Loaded model from 'model_state_dict'                                                   inference.py:158
+INFO | Inference          | Model moved to device successfully                                                     inference.py:172
+INFO | Inference          | BitNet model loaded successfully on cuda                                                inference.py:69
+INFO | Inference          | Model parameters: 17,240,122                                                            inference.py:70
+INFO | Inference          | Generating text with prompt: 'The history of...'                                       inference.py:208
+INFO | Inference          | Original length: 5, Max new tokens: 30                                                 inference.py:209
+INFO | Inference          | Generating text with prompt: 'In computer science...'                                  inference.py:208
+INFO | Inference          | Original length: 5, Max new tokens: 30                                                 inference.py:209
+INFO | Inference          | Generating text with prompt: 'The theory of evolution...'                              inference.py:208
+INFO | Inference          | Original length: 6, Max new tokens: 30                                                 inference.py:209
