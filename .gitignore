@@ -4,3 +4,4 @@ wandb
 BitText/training/checkpoints
 
 **.pyc
+**pth

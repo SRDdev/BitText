@@ -26,7 +26,7 @@ class Config:
         self.learning_rate = 5e-5             # Peak learning rate
         self.min_lr = 1e-6                    # Minimum learning rate for scheduler
         self.weight_decay = 0.01              # Weight decay for regularization
-        self.num_epochs = 10                  # Maximum number of epochs
+        self.num_epochs = 100                  # Maximum number of epochs
         
         # =================================================================
         # OPTIMIZER SETTINGS
