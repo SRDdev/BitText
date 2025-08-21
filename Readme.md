@@ -1,11 +1,11 @@
-# BitVision
+# BitText
 
-**BitVision** is a research-oriented and experimental repository focused on the exploration of **Bit Quantized Models** for both **NLP (BitText)** and **Vision (BitVision)** tasks. The aim is to develop compact, efficient transformer-based models through extreme quantization (e.g., 1–4 bits) while maintaining competitive performance.
+**BitText** is a research-oriented and experimental repository focused on the exploration of **Bit Quantized Models** for both **NLP (BitText)** and **Vision (BitText)** tasks. The aim is to develop compact, efficient transformer-based models through extreme quantization (e.g., 1–4 bits) while maintaining competitive performance.
 
 This repo includes:
 
 * **BitText**: A BitNet-style Transformer for text-based tasks using low-bit quantized layers.
-* **BitVision** *(Coming soon)*: A Vision Transformer (ViT)-inspired architecture adapted to Bit-level quantization.
+* **BitText** *(Coming soon)*: A Vision Transformer (ViT)-inspired architecture adapted to Bit-level quantization.
 * Future direction: A unified **Bit-VLM (Vision-Language Model)** leveraging BitQuantization for multi-modal tasks.
 
 ---
@@ -64,7 +64,7 @@ bitText/
 
 ---
 
-## 📷 BitVision (Planned)
+## 📷 BitText (Planned)
 
 * Architecture inspired by **Vision Transformers (ViT)**.
 * Adapts core ViT components (patch embedding, MLP, attention) into **low-bit quantized layers**.
@@ -78,7 +78,7 @@ bitText/
 
 ## 🔁 BitVLM: Bit Quantized Vision-Language Model (Planned)
 
-The final goal of the repository is to integrate BitText and BitVision into a **Vision-Language Model** (e.g., CLIP-style):
+The final goal of the repository is to integrate BitText and BitText into a **Vision-Language Model** (e.g., CLIP-style):
 
 * Unified architecture for image-caption, image-question, or multi-modal tasks.
 * Focus on extremely lightweight inference—ideal for edge devices and embedded systems.
@@ -90,8 +90,8 @@ The final goal of the repository is to integrate BitText and BitVision into a **
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/BitVision.git
-cd BitVision/bitText
+git clone https://github.com/yourusername/BitText.git
+cd BitText/bitText
 ```
 
 ### 2. Install Requirements
@@ -157,7 +157,7 @@ All dependencies are listed in `requirements.txt`.
 
 ## 📈 Results
 
-### [All results are at Weights and Biases](https://wandb.ai/srddev/bitvision/overview)
+### [All results are at Weights and Biases](https://wandb.ai/srddev/BitText/overview)
 ![alt text](image.png)
 * Loss curves across bit-widths
 * Comparison between float vs quantized models

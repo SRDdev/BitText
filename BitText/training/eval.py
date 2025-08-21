@@ -61,7 +61,7 @@ def evaluate_model(model, data_loader, criterion, device):
 
 def main():
     # Initialize W&B
-    wandb.init(project="bitvision", entity="your-wandb-username", job_type="evaluation")
+    wandb.init(project="BitText", entity="your-wandb-username", job_type="evaluation")
 
     # Load configuration
     config = Config()

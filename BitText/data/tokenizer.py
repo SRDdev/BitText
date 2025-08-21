@@ -106,7 +106,7 @@ def test_model_creation():
 def main():
     """Run all tests."""
     print("=" * 60)
-    print("BitVision Tokenizer and Model Debug Test")
+    print("BitText Tokenizer and Model Debug Test")
     print("=" * 60)
     
     # Test tokenizer

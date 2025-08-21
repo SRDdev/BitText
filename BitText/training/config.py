@@ -85,7 +85,7 @@ class Config:
         # =================================================================
         # LOGGING & MONITORING
         # =================================================================
-        self.project_name = "bitvision"  # W&B project name
+        self.project_name = "BitText"  # W&B project name
         self.entity = "srddev"                # W&B entity/username
         self.experiment_name = None           # Experiment name (auto-generated if None)
         self.log_interval = 50                # Logging interval (batches)
